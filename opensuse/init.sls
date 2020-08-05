@@ -22,6 +22,6 @@ savoiringfaire:
   file.managed:
     - mode: 600
     - contents:
-      - 'ilmehtar ALL=(ALL) NOPASSWD: ALL'
+      - 'savoiringfaire ALL=(ALL) NOPASSWD: ALL'
     - require:
       - user: savoiringfaire

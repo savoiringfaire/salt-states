@@ -1,7 +1,7 @@
 base:
   '*':
     - opensuse
-  'darene.hhra.uk':
+  'darlene.hhra.uk':
     - opensuse.microos
     - hhra.containerhost.darlene
     - sshd

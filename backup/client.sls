@@ -5,3 +5,7 @@
     - user: root
     - group: root
     - mode: 755
+    
+cpanm:
+  cpan.installed:
+    - name: Time::Local

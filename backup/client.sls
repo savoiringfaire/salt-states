@@ -6,6 +6,5 @@
     - group: root
     - mode: 755
     
-cpanm:
-  cpan.installed:
-    - name: Time::Local
+"perl -MCPAN -e install Time::Local":
+  cmd.run:

@@ -7,4 +7,4 @@
     - mode: 755
     
 "perl -MCPAN -e install Time::Local":
-  cmd.run:
+  cmd.run

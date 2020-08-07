@@ -9,3 +9,6 @@ base:
   'backup.hhra.uk':
     - opensuse.microos
     - sshd
+  'angela.hhra.uk':
+    #- opensuse.desktop
+    - sshd

@@ -10,5 +10,5 @@ base:
     - opensuse.microos
     - sshd
   'angela.hhra.uk':
-    #- opensuse.desktop
+    - opensuse.desktop
     - sshd

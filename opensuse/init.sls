@@ -1,5 +1,8 @@
 root:
   user.present
+  
+include:
+  - opensuse.shell
 
 savoiringfaire:
   user.present:

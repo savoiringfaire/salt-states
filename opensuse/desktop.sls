@@ -1,2 +1,3 @@
 include:
   - opensuse
+  - opensuse/vscode

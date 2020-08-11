@@ -22,7 +22,7 @@ public:
     - name: public
     - services:
       - custom_ssh
-    - requires:
+    - require:
       - user: savoiringfaire
       - firewalld.service: custom_ssh
 {% endif %}

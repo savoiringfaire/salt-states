@@ -1,0 +1,10 @@
+[Unit]
+Description=Bitwarden Service
+
+[Service]
+ExecStartPre=-/usr/bin/podman rm bitwarden
+ExecStart=/usr/bin/podman run --rm --name bitwarden -v /var/opt/bitwarden/data:/data/ -p 80:80/tcp vaultwarden/server
+ExecStop=/usr/bin/podman stop bitwarden
+
+[Install]
+Wanted=bitwarden.service

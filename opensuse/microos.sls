@@ -1,7 +1,7 @@
 include:
   - opensuse
 
-/etc/salt/minion.d/transactional_update:
+/etc/salt/minion.d/transactional_update.conf:
   file.managed:
     - user: root
     - group: root

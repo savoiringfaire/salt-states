@@ -1,0 +1,24 @@
+module_executors:
+  - transactional_update
+  - direct_call
+  
+executor_opts:
+  delegated_modules: [
+    "ansible",
+    "cabal",
+    "chef",
+    "cmd",
+    "composer",
+    "cp",
+    "cpan",
+    "cyg",
+    "freeze",
+    "nix",
+    "npm",
+    "pip",
+    "pkg",
+    "puppet",
+    "pyenv",
+    "rbenv",
+    "scp"
+  ]

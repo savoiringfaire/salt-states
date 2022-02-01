@@ -29,6 +29,7 @@ savoiringfaire:
     - makedirs: true
     - contents:
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBMpDh+3HjaZIlrwlePaACyVpa9z9YyFRWEvC+IXPaJv
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGcRlbfcbna6YXmGV6CFHF17MoveyjIkWv3fZztfcURi
     - require:
       - user: savoiringfaire
 

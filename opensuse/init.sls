@@ -39,3 +39,17 @@ savoiringfaire:
       - 'savoiringfaire ALL=(ALL) NOPASSWD: ALL'
     - require:
       - user: savoiringfaire
+
+myopensuse.packages:
+  pkg.installed:
+    - pkgs:
+      - htop
+      - screen
+      - git-core
+      - zsh
+      - csync
+      - libcsync-plugin-sftp
+      - scout-command-not-found
+      - salt-zsh-completion
+      - no-more-secrets
+      - screenfetch

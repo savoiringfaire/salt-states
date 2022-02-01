@@ -3,6 +3,6 @@ base:
     - opensuse.containerhost
     - opensuse.containerhost.bitwarden
     - opensuse.microos
-  'netmon.home.hhra.uk'
+  'netmon.parents.hhra.uk'
     - opensuse.containerhost
     - opensuse.microos

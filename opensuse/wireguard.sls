@@ -1,0 +1,2 @@
+wireguard-tools:
+  pkg.installed

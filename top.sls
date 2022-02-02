@@ -7,3 +7,4 @@ base:
   'netmon.parents.hhra.uk':
     - opensuse.containerhost
     - opensuse.microos
+    - opensuse.wireguard
